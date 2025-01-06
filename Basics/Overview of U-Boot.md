@@ -5,7 +5,7 @@ U-Boot is an open source bootloader commonly used for booting up applications in
 ---
 # Where does U-Boot actually come into play?
 
-So the [first](./First%20few%20stages%20of%20a%20Bootloader#Stage%201%20-%20Hardware%20Initialisation) and [second](./First%20few%20stages%20of%20a%20Bootloader#Stage%202%20-%20Bootloader%20mode%20or%20application%20mode) parts of the initial boot process are usually taken care of by the BIOS/UEFI or the system chip manufacturer.
+So the [first](./First%20few%20stages%20of%20a%20Bootloader.md#Stage%201%20-%20Hardware%20Initialisation) and [second](./First%20few%20stages%20of%20a%20Bootloader.md#Stage%202%20-%20Bootloader%20mode%20or%20application%20mode) parts of the initial boot process are usually taken care of by the BIOS/UEFI or the system chip manufacturer.
 
 Then the next few steps i.e. [setting up the execution environment](./First%20few%20stages%20of%20a%20Bootloader#Stage%203%20-%20Startup%20Code) and [loading the Operating System](./First%20few%20stages%20of%20a%20Bootloader#Stage%204%20-%20Loading%20the%20OS) are managed by U-Boot itself.
 
