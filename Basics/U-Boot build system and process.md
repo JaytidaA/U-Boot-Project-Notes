@@ -39,7 +39,7 @@ When an ARM CPU is powered on, the program counter points to the beginning of a 
 
 There exists a small program in the BROM called the boot program which loads the *preloader* into the ISRAM (Internal Synchronous RAM)
 
-<img height="200" src="https://content.imageresizer.com/images/memes/Surprised-Black-Guy-meme-7.jpg" align="center"/><center>Me when the pre-loader needs to be loaded.</center>
+<img height="200" src="https://i.pinimg.com/originals/02/33/2a/02332a6ec52c97953ea9a9107adef36f.jpg" align="center"/><center>Me when the pre-loader needs to be loaded.</center>
 
 This preloader can be considered to be a **primary bootloader**, as it actually boots the U-Boot into the DDR.
 
